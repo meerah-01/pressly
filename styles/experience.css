@@ -1,0 +1,109 @@
+.experience-section{
+  display: flex;
+  flex-direction: column;
+}
+.experience-1, .experience-2{
+  display: flex;
+  flex-direction: row;
+}
+.experience-1{
+  align-items: center;
+  margin-left: 75px;
+}
+.experience-statement{
+  font-weight: bold;
+  font-size: xx-large;
+  margin-right: 300px;
+  width: 300px;
+}
+.experience-text{
+  width: 500px;
+}
+.ratings{
+  width: 20%;
+}
+.review-profile{
+  width: 10%;
+}
+.review-about{
+  display: flex;
+  flex-direction: row;
+}
+.more{
+  border: none;
+  background-color: #4385c8df;
+  padding: 6px 10px;
+  border-radius: 20px;
+  margin: 10px 1000px 0px 30px;
+}
+.more span{
+  border: none;
+  background-color: white;
+  padding: 0px 3px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+}
+.blue-arrow{
+  border: none;
+  background-color: #4385c8df;
+  padding: 3px 4px;
+  padding-bottom: 4px;
+  border-radius: 20px;
+}
+.yellow-arrow{
+  border: none;
+  background-color: #ede438df;
+  padding: 3px 4px;
+  padding-bottom: 4px;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .experience-1{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .experience-statement{
+    width: 150px;
+    font-size: 15px;
+    margin: 0;
+    margin-right: 60px;
+  }
+  .experience-text{
+    margin: 0;
+    width: 250px;
+    font-size: 11px;
+    margin-right: 20px;
+  }
+  .experience-2{
+    background-color: rgb(237, 249, 255);
+    padding: 10px 0px;
+  }
+  .review{
+    font-size: 14px;
+    margin-top: -15px;
+  }  
+  .review-profile{
+    margin-top: -30px;
+    margin-left: 25px;  
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .customers-review{
+    font-size: 13px;
+  }
+  .reviews{
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 200px;
+    width: 1200px;
+ }
+ .more{
+  margin: 10px 280px 0px 20px;
+}
+}

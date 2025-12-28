@@ -1,0 +1,100 @@
+.plan-section{
+  margin: 50px 60px 0px 74px;
+}
+.plan-header{
+  text-align: center;
+  font-size: 37px;
+  font-family: Roboto;
+}
+.package{
+  display: flex;
+  flex-direction: row;
+}
+.option{
+  background-color: rgb(237, 249, 255);
+  flex: 1;
+  margin-right: 5px;
+  padding: 5px; 
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+.ball{
+  background-color: #4385c8df;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+}
+.points{
+  margin-left: 23px;
+  margin-top: -13px;
+}
+.package-write{
+  margin-bottom: 15px;
+}
+.package-info{
+  margin-top: 30px;
+}
+.price{
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.order{
+  font-size: 10px;
+  font-weight: 300;
+  border: 1px solid #4385c8df;
+  color: white;
+  background-color: #4385c8df;
+  padding: 6px 8px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.order span{
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 0px 3px;
+  padding-bottom: 2px;
+}
+.order-ash{
+  font-size: 10px;
+  font-weight: 300;
+  border: 1px solid rgb(189, 189, 189);
+  color: black;
+  background-color: rgb(189, 189, 189);
+  padding: 6px 8px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.order-ash span{
+  border: none;
+  background-color: rgb(84, 84, 84);
+  color: black;
+  border-radius: 20px;
+  padding: 0px 3px;
+  padding-bottom: 2px;
+}
+.grey{
+  border: 1px solid rgb(84, 84, 84);
+  background-color: rgb(84, 84, 84);
+  color: black;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px){
+  .plan-section{
+    margin: 0;
+  }
+  .points{
+    font-size: 10px;
+  }
+  .package-write{
+    font-size: 12px;
+  }
+  .option{
+    height: 250px;
+  }
+  .plan-header{
+    font-size: 25px;
+  }
+}
