@@ -1,0 +1,222 @@
+.banner-1{
+  background-color: rgb(12, 12, 134);
+  padding-bottom: 20px;
+  margin: 20px 0px;
+}
+.banner-wording{
+  margin-left: 20px;
+  width: 700px;
+  font-size: 55px;
+  font-weight: bolder;
+  margin-top: 35px;
+  padding-top: 30px;
+  color: white;
+  font-family: Roboto;
+}
+.logo-name{
+  color: yellow;
+}
+.banner-words{
+  margin-top: -30px;
+  font-size: 16x;
+  margin-left: 20px;
+  color: white;
+  width: 620px;
+  line-height: 18px;
+}
+.picture-inbuilt{
+  width: 4%;
+  border-radius: 100%;
+  margin-right: -15px;
+  margin-bottom: -8px;
+}
+.plus{
+  width: 4%;
+  background-color: #99c6f4df;
+  border-radius: 60%;
+  margin-bottom: -8px;
+}
+.start{
+  margin-left: 20px;
+  font-size: 10px;
+  font-weight: 300;
+  border: 1px solid #4385c8df;
+  color: white;
+  background-color: #4385c8df;
+  padding: 9px 25px;
+  border-radius: 20px;
+}
+.start span{
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0px 3px;
+  padding-bottom: 2px;
+  color: black;
+}
+.count-1{
+  margin-left: 950px;
+}
+.profile-2{
+  width: 15%;
+  border-radius: 100%;
+  margin-right: -20px;
+}
+.company-count{
+  font-size: 10px;
+  margin-top: 0;
+  color: white;
+}
+.banner-2{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.top-banner{
+  display: flex;
+  flex-direction: row;
+}
+.banner-pic{
+  width: 65%;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.split-text{
+  color: white;
+  font-size:250px;
+  font-weight: 900;
+  letter-spacing: 22px;
+  height: 110px;
+  overflow: hidden;
+  line-height: 60px;
+  transform: translateY(-50%);
+  margin-top: 110px;
+  margin-bottom: 0vw;
+}
+.in-banner-pic{
+  position: absolute;
+  color: black;
+  margin-top: -60px;
+  margin-left: 40px;
+  font-size: 25px;
+  width: 150px;
+}
+.beside-banner-pic{
+  font-size: 50px;
+  line-height: 50px;
+  color: white;
+  width: 500px;
+  margin-left: 70px;
+}
+.about-list {
+  padding: 20px 30px;
+  display: flex;
+  gap: 35px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.about-list .column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.about-list a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: Roboto;
+}
+
+@media(min-width: 350px) and (max-width: 600px) {
+.banner-wording {
+  width: clamp(300px, 60vw, 400px);
+  font-size: clamp(18px, 4vw, 25px);
+  margin-bottom: clamp(27px, 4vw, 27px);
+}
+
+.banner-words {
+  font-size: clamp(6px, 1.8vw, 11px);
+  width: clamp(220px, 55vw, 400px);
+  line-height: clamp(12px, 3vw, 18px);
+  margin-top: clamp(-20px, -3vw, -20px);
+}
+
+.picture-inbuilt {
+  margin-bottom: clamp(-5px, -1vw, -3px);
+  margin-right: clamp(-10px, -2vw, -7px);
+}
+
+.plus {
+  margin-bottom: clamp(-5px, -1vw, -3px);
+}
+
+.count-1 {
+  margin-left: clamp(250px, 55vw, 350px);
+}
+
+.profile-2 {
+  width: clamp(20%, 23%, 28%);
+  margin-right: clamp(-13px, -2vw, -18px);
+  border-radius: 100%;
+}
+
+.banner-pic {
+  width: clamp(60px, 15vw, 100px);
+  height: clamp(60px, 15vw, 100px);
+  margin-left: clamp(7px, 2vw, 10px);
+}
+
+.in-banner-pic {
+  font-size: clamp(8px, 2vw, 15px);
+  width: clamp(50px, 12vw, 100px);
+  margin-top: clamp(-40px, -8vw, -30px);
+  margin-left: clamp(10px, 4vw, 20px);
+}
+
+.beside-banner-pic {
+  font-size: clamp(14px, 3vw, 18px);
+  line-height: clamp(16px, 4vw, 25px);
+  width: clamp(160px, 45vw, 200px);
+  margin-left: clamp(15px, 4vw, 20px);
+  margin-top: 23px;
+  font-weight: bold;
+}
+
+.split-text {
+  font-size: clamp(45px, 10vw, 73px);
+  letter-spacing: 23px;
+  height: clamp(25px, 6vw, 35px);
+  overflow: hidden;
+  line-height: clamp(15px, 5vw, 25px);
+  transform: translateY(-50%);
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.about-list {
+  gap: clamp(10px, 2vw, 15px);
+  margin-top: 7px;
+  margin-left: -20px;
+  padding: clamp(7px, 2vw, 10px) clamp(17px, 4vw, 20px);
+}
+
+.about-list .column {
+  gap: 2px;
+}
+
+.about-list a {
+  font-size: clamp(9px, 2vw, 11px);
+}
+
+.start {
+  padding: clamp(5px, 1.5vw, 7px) clamp(17px, 4vw, 20px);
+}
+
+.company-count {
+  font-size: clamp(6px, 1.5vw, 8px);
+}
+
+}
