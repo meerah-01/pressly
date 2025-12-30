@@ -51,11 +51,13 @@
   background-color: rgb(237, 249, 255);
   padding: 10px 0px;
 }
-.experience-3 .div{
-  justify-content: flex-end;
+.experience-3{
+  margin-top: 20px;
 }
 .more{
   justify-content: flex-start;
+  margin-right: 1020px;
+  margin-left: 50px;
   border: none;
   background-color: #4385c8df;
   padding: 6px 10px;
@@ -139,4 +141,5 @@
   .reviews:nth-child(3) {
     display: none;
   }
+
 }
